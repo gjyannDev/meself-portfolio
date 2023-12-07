@@ -1,0 +1,17 @@
+.header__container {
+  margin-top: var(--size-2xl);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__img {
+  width: 80px;
+}
+
+.nav__links {
+  display: none;
+}

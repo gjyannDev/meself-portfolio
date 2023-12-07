@@ -28,6 +28,10 @@
   padding-right: 1.5rem;
 }
 
+li, a, p {
+  font-family: 'Hind', sans-serif;
+}
+
 .header-font {
   font-family: 'Poppins', sans-serif;
 }
