@@ -16,29 +16,35 @@
   </head>
   <body>
     <header class="header__container container">
-      <nav class="header">
+      <div class="logo__container">
         <img src="./Logo.svg" alt="an image of the web portfolio logo" class="logo__img">
-        <img src="./menu.svg" alt="menu image" class="menu__bar">
+      </div>
+      <nav class="header">
         <ul class="nav__links">
-          <li><a href="#" class="header__link"></a>About</li>
-          <li><a href="#" class="header__link"></a>Projects</li>
-          <li><a href="#" class="header__link"></a>Services</li>
-          <li>
-            <button class="contact__btn">
-              <a href="#">Let's Talk</a>
-            </button>
-          </li>
+          <li><a href="#" class="header__link"></a>about</li>
+          <li><a href="#" class="header__link"></a>projects</li>
+          <li><a href="#" class="header__link"></a>services</li>
         </ul>
+          <button class="contact__btn">
+            <a href="#">Let's Talk.</a>
+          </button>
       </nav>
+      <div class="menu__logo-container">
+        <img src="./menu.svg" alt="menu image" class="menu__bar">
+      </div>
     </header>
     <main>
-      <section class="hero__section"></section>
-      <section class="about"></section>
+      <section class="hero__section container">
+        <h1>Hey <br> I'm <span style="color: var(--clr-primary);">Francis</span></h1>
+        <p>A designer / Front end developer with a passion for web design, based in philipppines.</p>
+        <img src="./hero-img.png" alt="an image of myself" class="hero__img">
+      </section>
+      <!-- <section class="about"></section>
       <section class="services"></section>
       <section class="projects"></section>
-      <section class="contact__section"></section>
+      <section class="contact__section"></section> -->
     </main>
-    <footer class="footer__container"></footer>
+    <!-- <footer class="footer__container"></footer> -->
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

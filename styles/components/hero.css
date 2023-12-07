@@ -1,0 +1,19 @@
+.hero__section {
+  margin-top: var(--size-5xl);
+}
+
+.hero__section h1 {
+  font-size: var(--size-7xl);
+  line-height: 1;
+}
+
+.hero__section p {
+  margin-left: var(--size-6xl);
+  font-weight: 600;
+  font-size: var(--size-base);
+  line-height: 1.5;
+}
+
+.hero__img {
+  width: 250px;
+}

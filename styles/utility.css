@@ -24,12 +24,20 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section {
+  margin-top: 5rem;
 }
 
 li, a, p {
   font-family: 'Hind', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
 }
 
 .header-font {
@@ -40,14 +48,13 @@ li, a, p {
   font-family: 'Hind', sans-serif;
 }
 
-/* xss */
+/* xs */
 @media (min-width: 320px) {
   .container {
     max-width: 320px;
   }
 }
 
-/* xs */
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
@@ -66,7 +73,7 @@ li, a, p {
   .container {
     max-width: 768px;
   }
-}  
+}
 
 /* lg */
 @media (min-width: 1024px) {
