@@ -1,0 +1,113 @@
+:root{
+  /* color */
+  --clr-dark: #1E1E1E;
+  --clr-light: #FDFDFF ;
+  --clr-primary: #6795A1;
+  --clr-dark-gray: #767676;
+  --clr-gray: #D4D2D4;
+   
+   /* sizes */
+   --size-xss: 0.5rem;
+   --size-xs: 0.75rem;
+   --size-sm: 0.875rem;
+   --size-base: 1rem;
+   --size-lg: 1.125rem;
+   --size-xl: 1.25rem;
+   --size-2xl: 1.5rem;
+   --size-3xl: 1.875rem;
+   --size-4xl: 2.25rem;
+   --size-5xl: 3rem;
+   --size-6xl: 3.75rem;
+   --size-7xl: 4.5rem;
+   --size-8xl: 6rem;
+   --size-9xl: 8rem;
+   --size-10xl: 10rem;
+}     
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+image,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  display: inline-block;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

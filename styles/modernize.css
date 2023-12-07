@@ -1,0 +1,310 @@
+/* Document
+ * ========================================================================== */
+
+/**
+ * Add border box sizing in all browsers (opinionated).
+ */
+
+ *,
+ ::before,
+ ::after {
+   box-sizing: border-box;
+ }
+ 
+ /**
+  * 1. Correct the line height in all browsers.
+  * 2. Prevent adjustments of font size after orientation changes in iOS.
+  */
+ 
+ html {
+   line-height: 1.15; /* 1 */
+   -webkit-text-size-adjust: 100%; /* 2 */
+ }
+ 
+ /* Sections
+  * ========================================================================== */
+ 
+ /**
+  * 1. Remove the margin in all browsers (opinionated).
+  * 2. Use the default user interface font in all browsers (opinionated).
+  */
+ 
+ body {
+   margin: 0; /* 1 */
+   font-family: system-ui, sans-serif; /* 2 */
+ }
+ 
+ /**
+  * Correct the font size and margin on `h1` elements within `section` and
+  * `article` contexts in Chrome, Edge, Firefox, and Safari.
+  */
+ 
+ h1 {
+   font-size: 2em;
+   margin: 0.67em 0;
+ }
+ 
+ /* Grouping content
+  * ========================================================================== */
+ 
+ /**
+  * Remove the margin on nested lists in Chrome, Edge, and Safari.
+  */
+ 
+ dl dl,
+ dl ol,
+ dl ul,
+ ol dl,
+ ul dl {
+   margin: 0;
+ }
+ 
+ /**
+  * 1. Add the correct height in Firefox.
+  * 2. Correct the inheritance of border color in Firefox.
+  */
+ 
+ hr {
+   color: inherit; /* 2 */
+   height: 0; /* 1 */
+ }
+ 
+ /* Text-level semantics
+    ========================================================================== */
+ 
+ /**
+  * Add the correct text decoration in Safari.
+  */
+ 
+ abbr[title] {
+   text-decoration: underline dotted;
+ }
+ 
+ /**
+  * Add the correct font weight in Chrome, Edge, and Safari.
+  */
+ 
+ b,
+ strong {
+   font-weight: bolder;
+ }
+ 
+ /**
+  * 1. Correct the inheritance and scaling of font size in all browsers.
+  * 2. Correct the odd `em` font sizing in all browsers.
+  * 3. Use the default monospace user interface font in all browsers (opinionated).
+  */
+ 
+ pre,
+ code,
+ kbd,
+ samp {
+   font-family: ui-monospace /* 3 */, monospace; /* 1 */
+   font-size: 1em; /* 2 */
+ }
+ 
+ /**
+  * Add the correct font size in all browsers.
+  */
+ 
+ small {
+   font-size: 80%;
+ }
+ 
+ /**
+  * Prevent `sub` and `sup` elements from affecting the line height in
+  * all browsers (opinionated).
+  */
+ 
+ sub,
+ sup {
+   font-size: 75%;
+   line-height: 0;
+   position: relative;
+   vertical-align: baseline;
+ }
+ 
+ sub {
+   bottom: -0.25em;
+ }
+ 
+ sup {
+   top: -0.5em;
+ }
+ 
+ /* Tabular data
+  * ========================================================================== */
+ 
+ /**
+  * 1. Correct table border color inheritance in all Chrome, Edge, and Safari.
+  * 2. Remove text indentation from table contents in Chrome, Edge, and Safari.
+  */
+ 
+ table {
+   border-color: inherit; /* 1 */
+   text-indent: 0; /* 2 */
+ }
+ 
+ /* Forms
+  * ========================================================================== */
+ 
+ /**
+  * 1. Change the font styles in all browsers (opinionated).
+  * 2. Remove the margin in Firefox and Safari.
+  */
+ 
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+   font-family: inherit; /* 1 */
+   font-size: 100%; /* 1 */
+   line-height: 1.15; /* 1 */
+   margin: 0; /* 2 */
+ }
+ 
+ /**
+  * Remove the inheritance of text transform in Firefox.
+  */
+ 
+ button,
+ select {
+   text-transform: none;
+ }
+ 
+ /**
+  * Correct the inability to style buttons in iOS and Safari.
+  */
+ 
+ button,
+ [type='button'],
+ [type='reset'],
+ [type='submit'] {
+   -webkit-appearance: button;
+ }
+ 
+ /**
+  * Remove the padding so developers are not caught out when they zero out
+  * `fieldset` elements in all browsers (opinionated).
+  */
+ 
+ legend {
+   padding: 0;
+ }
+ 
+ /**
+  * Add the correct vertical alignment in Chrome, Edge, and Firefox.
+  */
+ 
+ progress {
+   vertical-align: baseline;
+ }
+ 
+ /**
+  * 1. Correct the odd appearance in Chrome, Edge, and Safari.
+  * 2. Correct the outline style in Safari.
+  */
+ 
+ [type='search'] {
+   -webkit-appearance: textfield; /* 1 */
+   outline-offset: -2px; /* 2 */
+ }
+ 
+ /**
+  * Correct the cursor style of increment and decrement buttons in Safari.
+  */
+ 
+ ::-webkit-inner-spin-button,
+ ::-webkit-outer-spin-button {
+   height: auto;
+ }
+ 
+ /**
+  * Correct the text style of placeholders in Chrome, Edge, and Safari.
+  */
+ 
+ ::-webkit-input-placeholder {
+   color: inherit;
+   opacity: 0.54;
+ }
+ 
+ /**
+  * Remove the inner padding in Chrome, Edge, and Safari on macOS.
+  */
+ 
+ ::-webkit-search-decoration {
+   -webkit-appearance: none;
+ }
+ 
+ /**
+  * 1. Correct the inability to style upload buttons in iOS and Safari.
+  * 2. Change font properties to `inherit` in Safari.
+  */
+ 
+ ::-webkit-file-upload-button {
+   -webkit-appearance: button; /* 1 */
+   font: inherit; /* 2 */
+ }
+ 
+ /**
+  * Remove the inner border and padding of focus outlines in Firefox.
+  */
+ 
+ ::-moz-focus-inner {
+   border-style: none;
+   padding: 0;
+ }
+ 
+ /**
+  * Restore the focus outline styles unset by the previous rule in Firefox.
+  */
+ 
+ :-moz-focusring {
+   outline: 1px dotted ButtonText;
+ }
+ 
+ /**
+  * Remove the additional :invalid styles in Firefox.
+  */
+ 
+ :-moz-ui-invalid {
+   box-shadow: none;
+ }
+ 
+ /* Interactive
+  * ========================================================================== */
+ 
+ /*
+  * Add the correct styles in Safari.
+  */
+ 
+ dialog {
+   background-color: white;
+   border: solid;
+   color: black;
+   display: block;
+   height: -moz-fit-content;
+   height: -webkit-fit-content;
+   height: fit-content;
+   left: 0;
+   margin: auto;
+   padding: 1em;
+   position: absolute;
+   right: 0;
+   width: -moz-fit-content;
+   width: -webkit-fit-content;
+   width: fit-content;
+ }
+ 
+ dialog:not([open]) {
+   display: none;
+ }
+ 
+ /*
+  * Add the correct display in all browsers.
+  */
+ 
+ summary {
+   display: list-item;
+ }
