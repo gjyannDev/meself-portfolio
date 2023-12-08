@@ -135,7 +135,7 @@
   }
   
   .services__section h2 {
-    font-size: 2.441rem;
+    font-size: 2.986rem;
     line-height: 1.235;
   }
   
@@ -149,7 +149,7 @@
   
   .service__description {
     line-height: 1.7;
-    font-size: 1.44rem;
+    font-size: 1.25rem;
   }
 
   .service__num {
@@ -166,17 +166,17 @@
   }
   
   .services__section h2 {
-    font-size: 3.052rem;
+    font-size: 2.986remrem;
     line-height: 1.235;
   }
   
-  .service__title {
-    font-size: 2.441rem;
-  }
-
   .service__one,
   .service__two {
-    gap: var(--size-5xl);
+    gap: var(--size-4xl);
+  }
+
+  .service__title {
+    font-size: 1.953rem;
   }
 
   .services__content {
@@ -195,7 +195,12 @@
     gap: 4.75rem;
   }
 
-  .services__section h2 {
-    font-size: 2.986rem;
+  .service__title {
+    font-size: 2.241rem;
+  }
+
+  .service__one,
+  .service__two {
+    gap: var(--size-5xl);
   }
 }
