@@ -32,7 +32,7 @@
   margin-top: 5rem;
 }
 
-li, a, p {
+li, a, p, label, button {
   font-family: 'Hind', sans-serif;
 }
 
