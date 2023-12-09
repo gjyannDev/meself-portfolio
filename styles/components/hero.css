@@ -85,7 +85,7 @@
     font-size: var(--size-7xl);
     line-height: 1;
     z-index: 1;
-    margin-left: var(--size-6xl);
+    /* margin-left: var(--size-6xl); */
   }
   
   .hero__section p:nth-child(2) {
@@ -93,7 +93,7 @@
   }
 
   .hero__section p {
-    margin-left: 9rem;
+    margin-left: 7rem;
     font-size: var(--size-xl);
     line-height: 1.6;
     max-width: 400px;
@@ -126,11 +126,12 @@
   }
 
   .hero__section p {
-    margin-left: 12rem;
+    margin-left: 15rem;
   }
   
   .hero__img {
     width: 490px;
+    right: 140px;
   }
 }
 
@@ -147,13 +148,13 @@
   }
 
   .hero__section p {
-    margin-left: 16rem;
+    margin-left: 18rem;
     max-width: 500px;
   }
   
   .hero__img {
     width: 580px;
-    right: 150px;
+    right: 180px;
     top: 140px;
   }
 }
@@ -170,7 +171,7 @@
   }
 
   .hero__section p {
-    margin-left: 17rem;
+    margin-left: 20rem;
     max-width: 600px;
     font-size: var(--size-2xl);
   }
@@ -178,6 +179,5 @@
   .hero__img {
     width: 600px;
     right: 200px;
-    top: 140px;
   }
 }
