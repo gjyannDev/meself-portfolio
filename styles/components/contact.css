@@ -206,6 +206,10 @@ button[type=submit]  {
 
 /* xl */
 @media (min-width: 1280px) {
+  .contact__header {
+    font-size: var(--size-7xl);
+  }
+
   .links__text {
     font-size: var(--size-lg);
   }
