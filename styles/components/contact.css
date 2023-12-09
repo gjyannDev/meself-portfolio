@@ -5,6 +5,12 @@
   margin: 32px 0;
 }
 
+.contact__contents {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+}
+
 form .form-row .input-data{
   width: 100%;
   height: 40px;
@@ -95,9 +101,130 @@ button[type=submit]  {
 }
 
 .contact__left {
-  margin-top: var(--size-7xl);
+  margin-top: var(--size-3xl);
 }
 
 .textarea {
   margin-top: var(--size-6xl);
 }
+
+.contact__right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-5xl);
+}
+
+.social__links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-xs);
+}
+
+.social__spaces,
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-base);
+}
+
+.spaces__links {
+  display: flex;
+  gap: var(--size-sm);
+  align-items: center;
+}
+
+.links__text {
+  color: var(--clr-dark-gray);
+}
+
+.contact__details-header {
+  font-size: var(--size-xl);
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+  .contact__header {
+    font-size: var(--size-4xl);
+    line-height: 1.2;
+  }
+  
+  .textarea {
+    margin-top: var(--size-6xl);
+  }
+
+  button[type=submit]  {
+    height: 120px;
+    width: 120px;
+  }  
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .contact__section form .form-row{
+    flex-direction: row;
+    margin: 40px 0;
+  }
+
+  .contact__right {
+    flex-direction: row;
+    gap: var(--size-10xl);
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .contact__header {
+    font-size: var(--size-5xl);
+  }
+
+  .contact__right {
+    flex-direction: column;
+    gap: var(--size-4xl);
+    margin-top: var(--size-4xl);
+  }
+
+  .contact__contents {
+    display: flex;
+    flex-direction: row;
+    gap: var(--size-5xl);
+  }  
+}  
+
+/* lg */
+@media (min-width: 1024px) {
+  .contact__header {
+    font-size: var(--size-6xl);
+  }
+
+  .contact__right {
+    gap: var(--size-6xl);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .links__text {
+    font-size: var(--size-lg);
+  }
+
+  .links__img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .contact__details-header {
+    font-size: var(--size-2xl);
+  }
+
+  button[type=submit]  {
+    height: 140px;
+    width: 140px;
+    font-size: var(--size-lg);
+  }  
+}
+
+/* 2xl */
+/* @media (min-width: 1366px) {} */
