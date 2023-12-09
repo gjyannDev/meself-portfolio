@@ -1,0 +1,139 @@
+.footer__container {
+  background-color: var(--clr-dark);
+}
+
+.footer__sub-container {
+  margin-top: var(--size-4xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-sm);
+  color: var(--clr-light);
+  padding: 2rem 0 2rem 0;
+}
+
+.footer__upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.back__btn {
+  display: flex;
+  align-items: center;
+}
+
+.back__btn h4,
+.footer__upper p {
+  font-size: var(--size-sm);
+}
+
+.back__icon-img {
+  width: 20px;
+}
+
+.footer__lower p {
+  font-size: var(--size-sm);
+  display: flex;
+  justify-content: center;
+}
+
+.footer__upper p:nth-child(2) {
+  display: none;
+}
+
+/* xss */
+/* @media (min-width: 320px) {} */
+
+/* xs */
+@media (min-width: 475px) {
+  .back__btn h4,
+  .footer__upper p {
+    font-size: var(--size-base);
+  }
+  
+  .back__icon-img {
+    width: 30px;
+  }
+  
+  .footer__lower p {
+    font-size: var(--size-sm);
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .footer__container {
+    margin-top: var(--size-6xl);
+  }
+
+  .footer__sub-container {
+    padding: 2.275rem 0 2.275rem 0;
+  }
+  
+  .back__btn h4,
+  .footer__upper p {
+    font-size: var(--size-sm);
+  }
+  
+  .back__icon-img {
+    width: 23px;
+  }
+  
+  .footer__lower {
+    display: none;
+  }
+ 
+  .footer__upper p:nth-child(2) {
+    display: block;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .footer__container {
+    margin-top: var(--size-9xl);
+  }
+
+  .footer__sub-container {
+    padding: 2.275rem 0 2.275rem 0;
+  }
+  
+  .back__btn h4,
+  .footer__upper p {
+    font-size: var(--size-sm);
+  }
+  
+  .back__icon-img {
+    width: 23px;
+  }
+}  
+
+/* lg */
+@media (min-width: 1024px) {
+  .footer__sub-container {
+    padding: 2.475rem 0 2.475rem 0;
+  }
+  
+  .back__btn h4,
+  .footer__upper p {
+    font-size: var(--size-base);
+  }
+  
+  .back__icon-img {
+    width: 25px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .footer__container {
+    margin-top: 9rem;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1366px) {
+  .footer__container {
+    margin-top: 10rem;
+  }
+}
