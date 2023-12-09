@@ -9,3 +9,13 @@ import '../styles/components/contact.css';
 import '../styles/components/footer.css';
 import '../styles/utility.css';
 import '../src/attractHover.js';
+
+
+let backToTop = document.querySelectorAll('.back__to-top');
+
+backToTop.forEach( ( el ) => {
+  el.addEventListener('click', () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  })  
+})

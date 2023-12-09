@@ -41,6 +41,10 @@
   display: none;
 }
 
+.back__to-top {
+  cursor: pointer;
+}
+
 /* xss */
 /* @media (min-width: 320px) {} */
 
