@@ -60,6 +60,7 @@ html {
 body {
   background-color: var(--clr-light);
   color: var(--clr-dark);
+  scroll-behavior: smooth;
 }
 
 /* HTML5 display-role reset for older browsers */

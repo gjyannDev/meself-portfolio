@@ -11,6 +11,10 @@
   gap: 12rem;
 }
 
+.contact__section {
+  margin-top: var(--size-6xl);
+}
+
 form .form-row .input-data{
   width: 100%;
   height: 40px;
@@ -89,6 +93,7 @@ button[type=submit]  {
   height: 100px;
   width: 100px;
   color: var(--clr-light);
+  transition: all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
 .submit-btn {
@@ -135,6 +140,7 @@ button[type=submit]  {
 
 .links__text {
   color: var(--clr-dark-gray);
+  transition: all 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940);
 }
 
 .contact__details-header {
@@ -172,6 +178,10 @@ button[type=submit]  {
     flex-direction: row;
     gap: var(--size-10xl);
   }
+
+  .contact__section {
+    margin-top: var(--size-8xl);
+  }
 }
 
 /* md */
@@ -208,6 +218,10 @@ button[type=submit]  {
 @media (min-width: 1280px) {
   .contact__header {
     font-size: var(--size-7xl);
+  }
+
+  .contact__section {
+    margin-top: var(--size-9xl);
   }
 
   .links__text {

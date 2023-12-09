@@ -28,6 +28,14 @@
   padding-right: 1.5rem;
 }
 
+.hero__wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .contact__wrapper {
   width: 100%;
   margin-left: auto;
@@ -38,6 +46,10 @@
 
 .section {
   margin-top: 5rem;
+}
+
+a, li {
+  cursor: pointer;
 }
 
 li, a, p, label, button {
@@ -60,6 +72,31 @@ h1, h2, h3, h4 {
   color: var(--clr-primary);
   font-size: var(--size-3xl);
 }
+
+/* underline hover effect */
+.link__hover {
+  display: inline-block;
+  position: relative;
+}
+
+.link__hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: var(--clr-primary);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.link__hover:hover::after{
+  transform: scaleX(1);
+  transition: bottom left;
+}
+
 
 /* xs */
 @media (min-width: 320px) {
@@ -106,6 +143,11 @@ h1, h2, h3, h4 {
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .hero__wrapper {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .contact__wrapper {

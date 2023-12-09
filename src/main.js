@@ -8,3 +8,4 @@ import '../styles/components/project.css';
 import '../styles/components/contact.css';
 import '../styles/components/footer.css';
 import '../styles/utility.css';
+import '../src/attractHover.js';
