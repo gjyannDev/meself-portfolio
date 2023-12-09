@@ -29,6 +29,7 @@
 
 .back__icon-img {
   width: 20px;
+  transition: all 0.3s;
 }
 
 .footer__lower p {
@@ -43,6 +44,10 @@
 
 .back__to-top {
   cursor: pointer;
+}
+
+.back__icon-img:hover {
+  transform: scale(1.2) translateY(-5px);
 }
 
 /* xss */
