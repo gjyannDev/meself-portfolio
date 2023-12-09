@@ -1,12 +1,15 @@
 .header__container {
+  background-color: var(--clr-light);
+  position: sticky;
+  top: 0; 
+  z-index: 3;
+  padding: 1rem 0 1rem 0;
+}
+
+.header__sub-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
-  background-color: var(--clr-light);
-  padding: 1rem 0 1rem 0;
-  z-index: 3;
 }
 
 .logo__img {
@@ -40,18 +43,10 @@
   .logo__img {
     width: 90px;
   }
-
-  .menu__bar {
-    width: 30px;
-  }
 }
 
 /* md */
 @media (min-width: 768px) {
-  .header__container {
-    padding: 1rem 0 1rem 0;
-  }
-
   .nav__links {
     display: flex;
     gap: var(--size-3xl);
