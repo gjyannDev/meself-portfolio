@@ -1,8 +1,12 @@
 .header__container {
-  margin-top: var(--size-2xl);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: var(--clr-light);
+  padding: 1rem 0 1rem 0;
+  z-index: 3;
 }
 
 .logo__img {
@@ -14,7 +18,15 @@
 }
 
 .contact__btn {
-  display: none;
+  width: fit-content;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  background-color: var(--clr-dark);
+  border-radius: 60px;
+  color: var(--clr-light);
+}
+
+.contact__btn a {
+  color: var(--clr-light);
 }
 
 /* xss */
@@ -37,24 +49,12 @@
 /* md */
 @media (min-width: 768px) {
   .header__container {
-    margin-top: var(--size-2xl);
+    padding: 1rem 0 1rem 0;
   }
 
   .nav__links {
     display: flex;
     gap: var(--size-3xl);
-  }
-  
-  .contact__btn {
-    display: block;
-    width: fit-content;
-    padding: 0.8rem 2rem 0.8rem 2rem;
-    background-color: var(--clr-dark);
-    border-radius: 60px;
-  }
-
-  .contact__btn a {
-    color: var(--clr-light);
   }
 
   .menu__logo-container {
