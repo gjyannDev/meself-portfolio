@@ -10,5 +10,21 @@
   },
   "devDependencies": {
     "vite": "^5.0.0"
-  }
+  },
+  "description": "��#\u0000 \u0000m\u0000e\u0000s\u0000e\u0000l\u0000f\u0000-\u0000p\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.19.8",
+    "locomotive-scroll": "^4.1.4",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.32",
+    "rellax": "^1.12.1",
+    "rollup": "^4.6.1",
+    "smooth-scrollbar": "^8.8.4",
+    "source-map-js": "^1.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

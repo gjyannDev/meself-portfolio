@@ -2,7 +2,7 @@
   background-color: var(--clr-light);
   position: sticky;
   top: 0; 
-  z-index: 3;
+  z-index: 4;
   padding: 1rem 0 1rem 0;
 }
 
