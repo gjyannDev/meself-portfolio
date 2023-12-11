@@ -73,6 +73,19 @@ h1, h2, h3, h4 {
   font-size: var(--size-3xl);
 }
 
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+
+.loading2 {
+  filter: blur(20px) grayscale(50%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+}
+
 /* xs */
 @media (min-width: 320px) {
   .container {

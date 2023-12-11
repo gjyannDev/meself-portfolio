@@ -304,3 +304,7 @@
 		transform: translateY(0);
 	}
 }
+
+.bg-color {
+  background-color: var(--clr-dark);
+}

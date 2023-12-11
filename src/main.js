@@ -15,6 +15,10 @@ import '../src/imageHover.js';
 import '../src/typeWrite.js';
 import '../src/backToTop.js';
 
+import lazyLoading from '/src/lazyLoading';
+
+lazyLoading();
+
 let loader = document.querySelector('.pre-loader');
 
 function delayLoad() {
@@ -25,3 +29,4 @@ function delayLoad() {
 }
 
 delayLoad();
+
