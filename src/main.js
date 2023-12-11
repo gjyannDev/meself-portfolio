@@ -13,16 +13,7 @@ import '../src/attractHover.js';
 import '../src/scrollAnimation.js';
 import '../src/imageHover.js';
 import '../src/typeWrite.js';
-
-let backToTop = document.querySelectorAll('.back__to-top');
-
-backToTop.forEach( ( el ) => {
-  el.addEventListener('click', () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  })  
-});
-
+import '../src/backToTop.js';
 
 let loader = document.querySelector('.pre-loader');
 
