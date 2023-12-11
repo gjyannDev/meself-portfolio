@@ -1,6 +1,6 @@
 .about__section {
   margin-top: var(--size-7xl);
-  background-color: #F5F5F5;
+  /* background-color: #F5F5F5; */
   padding: var(--size-5xl) 0 var(--size-5xl) 0;
 }
 
@@ -35,6 +35,12 @@
   line-height: 1.2;
 }
 
+.about__section p,
+.about__section h2 {
+  color: var(--clr-light);
+}
+
+
 /* xss */
 /* @media (min-width: 320px) {} */
 
@@ -42,7 +48,6 @@
 @media (min-width: 475px) {
   .about__section {
     margin-top: var(--size-8xl);
-    background-color: #F5F5F5;
     padding: var(--size-5xl) 0 var(--size-5xl) 0;
   }
   
@@ -72,7 +77,6 @@
 @media (min-width: 640px) {
   .about__section {
     margin-top: var(--size-9xl);
-    background-color: #F5F5F5;
     padding: var(--size-5xl) 0 var(--size-5xl) 0;
   }
   

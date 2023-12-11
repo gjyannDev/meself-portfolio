@@ -61,6 +61,8 @@ html {
 body {
   background-color: var(--clr-light);
   color: var(--clr-dark);
+  transition: background 1s ease;
+  z-index: 10;
 }
 
 /* HTML5 display-role reset for older browsers */

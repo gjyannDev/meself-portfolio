@@ -4,6 +4,7 @@
   top: 0; 
   z-index: 4;
   padding: 1rem 0 1rem 0;
+  transition: background 1s ease;
 }
 
 .header__sub-container {
@@ -26,6 +27,7 @@
   background-color: var(--clr-dark);
   border-radius: 60px;
   color: var(--clr-light);
+  transition: background 1s ease;
 }
 
 .contact__btn a {

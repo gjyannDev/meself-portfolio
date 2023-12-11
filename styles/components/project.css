@@ -24,16 +24,18 @@
 
 .project__title {
   font-size: 1.4rem;
+  color: var(--clr-light);
 }
 
 .project__des p:nth-child(2) {
   font-size: var(--size-xs);
-  color: var(--clr-dark-gray);
+  color: var(--clr-gray);
 }
 
 .prj__one {
   display: none;
 }
+
 
 /* xss */
 /* @media (min-width: 320px) {} */
