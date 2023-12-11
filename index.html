@@ -17,229 +17,235 @@
     <title>Francis ⎼⎼⎼⎼ UI Designer | Frontend Developer</title>
   </head>
   <body>
+    <div class="pre-loader">
+      <!-- <h1 class="pre-loader-text typeEffect">EAT , <span style="color: var(--clr-primary);"> CODE</span> , SLEEP , <span style="color: var(--clr-primary);"> REPEAT</span></h1> -->
+      <h1>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "EAT", "CODE", "SLEEP", "REPEAT" ]'>
+          <span class="wrap"></span>
+        </a>
+      </h1>
+    </div>
     <div class="cursor"></div>
     <div class="cursor-follower"></div>
-    <header class="header__container">
-      <div class="header__sub-container container">
-        <div class="logo__container">
-          <img src="./Logo.svg" alt="an image of the web portfolio logo" class="logo__img">
+    <div class="main" style="display: none;">
+      <header class="header__container fadeTopHeader ">
+        <div class="header__sub-container container">
+          <div class="logo__container">
+            <img src="./Logo.svg" alt="an image of the web portfolio logo" class="logo__img">
+          </div>
+          <nav class="header">
+            <ul class="nav__links">
+              <li><a href="#about" class="header__link link__hover attract__hover">about</a></li>
+              <li><a href="#projects" class="header__link link__hover attract__hover">projects</a></li>
+              <li><a href="#services" class="header__link link__hover attract__hover">services</a></li>
+            </ul>
+              <button class="contact__btn">
+                <a href="#contact">Let's Talk.</a>
+              </button>
+          </nav>
         </div>
-        <nav class="header">
-          <ul class="nav__links">
-            <li><a href="#about" class="header__link link__hover attract__hover">about</a></li>
-            <li><a href="#projects" class="header__link link__hover attract__hover">projects</a></li>
-            <li><a href="#services" class="header__link link__hover attract__hover">services</a></li>
-          </ul>
-            <button class="contact__btn">
-              <a href="#contact">Let's Talk.</a>
-            </button>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="hero__section container hero__wrapper">
-        <h1>Hey <br> I'm <span style="color: var(--clr-primary);">Francis</span></h1>
-        <p>A designer / Front end developer with a passion for web design, based in philipppines.</p>
-        <img src="./hero-img.png" alt="an image of myself" class="hero__img">
-        <p class="hero__des2">A designer / Front end developer with a passion for web design, based in philipppines.</p>
-      </section>
-      <section class="about__section" id="about">
-        <div class="about__sub-container container">
-          <h1 class="about__header heading__text bounce-top fade-In-Top">01. ABOUT ME</h1>
-          <div class="about__contents">
-            <div class="about__left">
-              <img src="./about-img-mobile.png" alt="an image of myself" class="about__img-mobile about__img">
-              <img src="./about-img-desktop.png" alt="an image of myself" class="about__img-desktop about__img">
-            </div>
-            <div class="about__right">
-              <h2 class="slide-up">A brief intro, who am I?</h2>
-              <p class="about__description slide-up">I am an independent frontend developer, UI/
-                UX designer and creator based in Melbourne,
-                Australia.</p>
-              <p class="about__description slide-up">I specialize in crafting elevated, intuitive, and
-                minimalistic designs for startups and small
-                businesses to help them stand out in the
-                digital landscape with a powerful impact.</p>
-              <p class="about__description slide-up">Welcome to my digital hub! As you explore my
-                portfolio, I invite you to delve deeper into my
-                professional journey. Curious about my skills,
-                experiences, and achievements? Look no
-                further - I've compiled it all in one place.
-                <a href="" style="color: var(--clr-primary);" class="resume-text">Resume</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="services__section container" id="services">
-        <h1 class="services__header heading__text bounce-top fade-In-Top">02. SERVICES</h1>
-        <h2 class="slide-up">Elevate your brand with my diverse Skills and Services</h2>
-       <div class="services__content">
-        <div class="service__one">
-          <div>
-            <p class="service__num">01</p>
-            <hr>
-          </div>
-          <h4 class="service__title slide-up">Design</h4>
-          <p class="service__description slide-up">With a solid track record in designing websites and apps, I deliver strong and user-friendly digital designs. Solid company branding is the foundation of any succesful website</p>
-        </div>
-        <div class="service__two">
-          <div>
-            <p class="service__num">02</p>
-            <hr>
-          </div>
-          <h4 class="service__title slide-up">Development</h4>
-          <p class="service__description slide-up">I build scalable websites from scratch that fit seamlessly with design. My focus is on micro animations, transitions and interaction. For content management I use Kirby CMS.</p>
-        </div>
-       </div>
-      </section>
-      <section class="projects__section container" id="projects">
-        <hr>
-        <h1 class="projects__header heading__text bounce-top fade-In-Top">03. PROJECTS</h1>
-        <div class="projects__content">
-          <!-- project 1 -->
-          <div class="project__wrapper proj__one">
-            <div class="portfolio-item">
-              <div class="portfolio-thumb">
-                <img src="./sketchy-etch.png" alt="An image of a calcualtor web app" class="project__img proj__img-one">
+      </header>
+      <main>
+        <section class="hero__section container hero__wrapper">
+          <h1 class="fadeLeft">Hey <br> I'm <span style="color: var(--clr-primary);">Francis</span></h1>
+          <p class="fadeInBottom">A designer / Front end developer with a passion for web design, based in philipppines.</p>
+          <img src="./hero-img.png" alt="an image of myself" class="hero__img fadeRight">
+          <p class="hero__des2 fadeInBottom">A designer / Front end developer with a passion for web design, based in philipppines.</p>
+        </section>
+        <section class="about__section" id="about">
+          <div class="about__sub-container container">
+            <h1 class="about__header heading__text bounce-top fade-In-Top">01. ABOUT ME</h1>
+            <div class="about__contents">
+              <div class="about__left">
+                <img src="./about-img-mobile.png" alt="an image of myself" class="about__img-mobile about__img">
+                <img src="./about-img-desktop.png" alt="an image of myself" class="about__img-desktop about__img">
               </div>
-            </div>
-            <div class="project__des proj__des-one">
-              <p class="project__title title__big-one">SKETCHY ETCH</p>
-              <p>DEVELOPMENT</p>
-            </div>
-          </div>
-          <!-- project 2 -->
-          <div class="project__wrapper proj__two">
-            <div class="project__des proj__des-two prj__one">
-              <p class="project__title title__big-two">ANIME STREAMING DASHBOARD</p>
-              <p class="des__one">DEVELOPMENT, DESIGN</p>
-            </div>
-            <div class="portfolio-item">
-              <div class="portfolio-thumb">
-                <img src="./anime-streaming-dashboard.png" alt="An image of a anime streaming dashboard" class="project__img proj__img-two">
-              </div>
-            </div>
-            <div class="project__des proj__des-two prj__two">
-              <p class="project__title title__big-two">ANIME STREAMING DASHBOARD</p>
-              <p class="des__one">DEVELOPMENT, DESIGN</p>
-            </div>
-          </div>
-          <!-- project 3 -->
-          <div class="project__wrapper proj__three">
-            <div class="portfolio-item">
-              <div class="portfolio-thumb">
-                <img src="./web-library.png" alt="An image of a web library application" class="project__img proj__img-three">
-              </div>
-            </div>
-            <div class="project__des proj__des-three">
-              <p class="project__title">WEB LIBRARY</p>
-              <p>DEVELOPMENT</p>
-            </div>
-          </div>
-          <!-- project 4 -->
-          <div class="project__wrapper proj__two">
-            <div class="project__des proj__des-two prj__one">
-              <p class="project__title title__big-two">SIMPLE CALCULATOR</p>
-              <p class="des__one">DEVELOPMENT, DESIGN</p>
-            </div>
-            <div class="portfolio-item">
-              <div class="portfolio-thumb">
-                <img src="./simple-calculator.png" alt="An image of a anime streaming dashboard" class="project__img proj__img-two">
-              </div>
-            </div>
-            <div class="project__des proj__des-two prj__two">
-              <p class="project__title title__big-two">SIMPLE CALCULATOR</p>
-              <p class="des__one">DEVELOPMENT, DESIGN</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact__section container" id="contact">
-        <hr>
-        <h1 class="projects__header heading__text bounce-top fade-In-Top">04. CONTACT</h1>
-        <h2 class="contact__header slide-up">LET'S CREATE SOMETHING GREAT.</h2>
-        <div class="contact__contents">
-          <div class="contact__left">
-            <form action="#">
-              <div class="form-row upper">
-                <div class="input-data">
-                   <input type="text" required>
-                   <div class="underline"></div>
-                   <label for="">Your name</label>
-                </div>
-                <div class="input-data">
-                   <input type="text" required>
-                   <div class="underline"></div>
-                   <label for="">Your email</label>
-                </div>
-             </div>
-             <div class="form-row your-message">
-              <div class="input-data textarea">
-                  <textarea rows="8" cols="80" required></textarea>
-                  <br />
-                  <div class="underline"></div>
-                  <label for="">Write your message</label>
-                  <br />
-                  <button type="submit" class="submit-btn attract__hover">SEND <br> MESSAGE</button>
-              </div>
-            </div>
-            </form>
-          </div>
-          <div class="contact__right">
-            <div class="contact__details">
-              <h3 class="contact__details-header">Contact Details</h3>
-              <ul>
-                <li><a href="mailto:zetsuya6167@gmail.com" class="links__text link__hover attract__hover">zetsuya6167@gmail.com</a></li>
-              </ul>
-            </div>
-            <div class="social__spaces">
-              <h3 class="contact__details-header">My Digital Spaces</h3>
-              <div class="social__links">
-                <div class="social__one spaces__links">
-                  <img src="./bxl-github.svg" alt="a github icon" class="links__img">
-                  <p><a href="" class="links__text link__hover attract__hover">Github</a></p>
-                </div>
-
-                <div class="social__one spaces__links">
-                  <img src="./bxl-facebook-circle.svg" alt="a facebook icon" class="links__img">
-                  <p ><a href="" class="links__text link__hover attract__hover">Facebook</a></p>
-                </div>
-
-                <div class="social__one spaces__links">
-                  <img src="./bxl-linkedin-square.svg" alt="a linkedin icon" class="links__img">
-                  <p ><a href="" class="links__text link__hover attract__hover">Linkedin</a></p>
-                </div>
-
-                <div class="social__one spaces__links">
-                  <img src="./bxl-dribbble.svg" alt="a dribble icon" class="links__img">
-                  <p ><a href="" class="links__text link__hover attract__hover">Dribble</a></p>
-                </div>
-
-                <div class="social__one spaces__links">
-                  <img src="./bxl-behance.svg" alt="a behance icon" class="links__img">
-                  <p><a href="" class="links__text link__hover attract__hover">Behance</a></p>
-                </div>
+              <div class="about__right">
+                <h2 class="slide-up">A brief intro, who am I?</h2>
+                <p class="about__description slide-up">I am an independent frontend developer, UI/
+                  UX designer and creator based in Melbourne,
+                  Australia.</p>
+                <p class="about__description slide-up">I specialize in crafting elevated, intuitive, and
+                  minimalistic designs for startups and small
+                  businesses to help them stand out in the
+                  digital landscape with a powerful impact.</p>
+                <p class="about__description slide-up">Welcome to my digital hub! As you explore my
+                  portfolio, I invite you to delve deeper into my
+                  professional journey. Curious about my skills,
+                  experiences, and achievements? Look no
+                  further - I've compiled it all in one place.
+                  <a href="" style="color: var(--clr-primary);" class="resume-text">Resume</a></p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer__container">
-      <div class="footer__sub-container container">
-        <div class="footer__upper">
-          <p>©2023 <span style="font-family: 'Poppins', sans-serif;">FRANCIS</span></p>
-          <p style="color: var(--clr-gray);">Coded and designed with ❤️‍🔥</p>
-          <div class="back__btn">
-            <h4 class="back__to-top back__to-top-text">BACK TO TOP</h4>
-            <img src="./chevrons-up.svg" alt="back to top icon" class="back__icon-img back__to-top">
+        </section>
+        <section class="services__section container" id="services">
+          <h1 class="services__header heading__text bounce-top fade-In-Top">02. SERVICES</h1>
+          <h2 class="slide-up">Elevate your brand with my diverse Skills and Services</h2>
+         <div class="services__content">
+          <div class="service__one">
+            <div>
+              <p class="service__num">01</p>
+              <hr>
+            </div>
+            <h4 class="service__title slide-up">Design</h4>
+            <p class="service__description slide-up">With a solid track record in designing websites and apps, I deliver strong and user-friendly digital designs. Solid company branding is the foundation of any succesful website</p>
+          </div>
+          <div class="service__two">
+            <div>
+              <p class="service__num">02</p>
+              <hr>
+            </div>
+            <h4 class="service__title slide-up">Development</h4>
+            <p class="service__description slide-up">I build scalable websites from scratch that fit seamlessly with design. My focus is on micro animations, transitions and interaction. For content management I use Kirby CMS.</p>
+          </div>
+         </div>
+        </section>
+        <section class="projects__section container" id="projects">
+          <hr>
+          <h1 class="projects__header heading__text bounce-top fade-In-Top">03. PROJECTS</h1>
+          <div class="projects__content">
+            <!-- project 1 -->
+            <div class="project__wrapper proj__one">
+              <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                  <img src="./sketchy-etch.png" alt="An image of a calcualtor web app" class="project__img proj__img-one">
+                </div>
+              </div>
+              <div class="project__des proj__des-one">
+                <p class="project__title title__big-one">SKETCHY ETCH</p>
+                <p>DEVELOPMENT</p>
+              </div>
+            </div>
+            <!-- project 2 -->
+            <div class="project__wrapper proj__two">
+              <div class="project__des proj__des-two prj__one">
+                <p class="project__title title__big-two">ANIME STREAMING DASHBOARD</p>
+                <p class="des__one">DEVELOPMENT, DESIGN</p>
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                  <img src="./anime-streaming-dashboard.png" alt="An image of a anime streaming dashboard" class="project__img proj__img-two">
+                </div>
+              </div>
+              <div class="project__des proj__des-two prj__two">
+                <p class="project__title title__big-two">ANIME STREAMING DASHBOARD</p>
+                <p class="des__one">DEVELOPMENT, DESIGN</p>
+              </div>
+            </div>
+            <!-- project 3 -->
+            <div class="project__wrapper proj__three">
+              <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                  <img src="./web-library.png" alt="An image of a web library application" class="project__img proj__img-three">
+                </div>
+              </div>
+              <div class="project__des proj__des-three">
+                <p class="project__title">WEB LIBRARY</p>
+                <p>DEVELOPMENT</p>
+              </div>
+            </div>
+            <!-- project 4 -->
+            <div class="project__wrapper proj__two">
+              <div class="project__des proj__des-two prj__one">
+                <p class="project__title title__big-two">SIMPLE CALCULATOR</p>
+                <p class="des__one">DEVELOPMENT, DESIGN</p>
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                  <img src="./simple-calculator.png" alt="An image of a anime streaming dashboard" class="project__img proj__img-two">
+                </div>
+              </div>
+              <div class="project__des proj__des-two prj__two">
+                <p class="project__title title__big-two">SIMPLE CALCULATOR</p>
+                <p class="des__one">DEVELOPMENT, DESIGN</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact__section container" id="contact">
+          <hr>
+          <h1 class="projects__header heading__text bounce-top fade-In-Top">04. CONTACT</h1>
+          <h2 class="contact__header slide-up">LET'S CREATE SOMETHING GREAT.</h2>
+          <div class="contact__contents">
+            <div class="contact__left">
+              <form action="#">
+                <div class="form-row upper">
+                  <div class="input-data">
+                     <input type="text" required>
+                     <div class="underline"></div>
+                     <label for="">Your name</label>
+                  </div>
+                  <div class="input-data">
+                     <input type="text" required>
+                     <div class="underline"></div>
+                     <label for="">Your email</label>
+                  </div>
+               </div>
+               <div class="form-row your-message">
+                <div class="input-data textarea">
+                    <textarea rows="8" cols="80" required></textarea>
+                    <br />
+                    <div class="underline"></div>
+                    <label for="">Write your message</label>
+                    <br />
+                    <button type="submit" class="submit-btn attract__hover">SEND <br> MESSAGE</button>
+                </div>
+              </div>
+              </form>
+            </div>
+            <div class="contact__right">
+              <div class="contact__details">
+                <h3 class="contact__details-header">Contact Details</h3>
+                <ul>
+                  <li><a href="mailto:zetsuya6167@gmail.com" class="links__text link__hover attract__hover">zetsuya6167@gmail.com</a></li>
+                </ul>
+              </div>
+              <div class="social__spaces">
+                <h3 class="contact__details-header">My Digital Spaces</h3>
+                <div class="social__links">
+                  <div class="social__one spaces__links">
+                    <img src="./bxl-github.svg" alt="a github icon" class="links__img">
+                    <p><a href="https://github.com/HummyDev7" class="links__text link__hover attract__hover" target="_blank">Github</a></p>
+                  </div>
+                  <div class="social__one spaces__links">
+                    <img src="./bxl-facebook-circle.svg" alt="a facebook icon" class="links__img">
+                    <p ><a href="https://www.facebook.com/profile.php?id=100084415779555" class="links__text link__hover attract__hover" target="_blank">Facebook</a></p>
+                  </div>
+                  <div class="social__one spaces__links">
+                    <img src="./bxl-linkedin-square.svg" alt="a linkedin icon" class="links__img">
+                    <p ><a href="" class="links__text link__hover attract__hover" target="_blank">Linkedin</a></p>
+                  </div>
+                  <div class="social__one spaces__links">
+                    <img src="./bxl-dribbble.svg" alt="a dribble icon" class="links__img">
+                    <p ><a href="https://dribbble.com/hummyDev7" class="links__text link__hover attract__hover" target="_blank">Dribble</a></p>
+                  </div>
+                  <div class="social__one spaces__links">
+                    <img src="public/bxl-instagram-alt.svg" alt="a instagram icon" class="links__img">
+                    <p><a href="https://www.instagram.com/mrkghiincs_/" class="links__text link__hover attract__hover" target="_blank">Instagram</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer__container">
+        <div class="footer__sub-container container">
+          <div class="footer__upper">
+            <p>©2023 <span style="font-family: 'Poppins', sans-serif;">FRANCIS</span></p>
+            <p style="color: var(--clr-gray);">Coded and designed with ❤️‍🔥</p>
+            <div class="back__btn">
+              <h4 class="back__to-top back__to-top-text">BACK TO TOP</h4>
+              <img src="./chevrons-up.svg" alt="back to top icon" class="back__icon-img back__to-top">
+            </div>
+          </div>
+          <div class="footer__lower">
+            <p style="color: var(--clr-gray);">Coded and designed with ❤️‍🔥</p>
           </div>
         </div>
-        <div class="footer__lower">
-          <p style="color: var(--clr-gray);">Coded and designed with ❤️‍🔥</p>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
