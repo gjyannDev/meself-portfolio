@@ -37,9 +37,8 @@
 
 .about__section p,
 .about__section h2 {
-  color: var(--clr-light);
+  color: var(--clr-dark);
 }
-
 
 /* xss */
 /* @media (min-width: 320px) {} */

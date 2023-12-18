@@ -24,12 +24,12 @@
 
 .project__title {
   font-size: 1.4rem;
-  color: var(--clr-light);
+  color: var(--clr-dark);
 }
 
 .project__des p:nth-child(2) {
   font-size: var(--size-xs);
-  color: var(--clr-gray);
+  color: var(--clr-dark-gray);
 }
 
 .prj__one {
