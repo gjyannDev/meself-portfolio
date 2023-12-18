@@ -14,7 +14,7 @@ import '../src/utils/scrollAnimation.js';
 import '../src/utils/imageHover.js';
 import '../src/utils/typeWrite.js';
 import '../src/utils/backToTop.js';
-import '../src/utils/changeBackground.js';
+// import '../src/utils/changeBackground.js';
 import lazyLoading from '/src/utils/lazyLoading';
 
 lazyLoading();
